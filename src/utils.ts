@@ -53,9 +53,15 @@ export const getNotionItems = async (
         if ("properties" in page) {
           const title = page.properties.Title;
           if (title && "type" in title && title.type === "title") {
+            // 修复：将所有文本片段合并，然后按换行符拆分
+            const fullText = title.title.map((t) => t.plain_text).join("");
+            const [label, href] = fullText.split("\n");
+
+            if (!label || !href) return false;
+
             return {
-              label: title.title.at(0)?.plain_text,
-              href: title.title.at(1)?.plain_text,
+              label: label.trim(),
+              href: href.trim(),
             };
           }
         }
