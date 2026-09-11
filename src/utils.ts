@@ -29,10 +29,6 @@ export const SAMPLE_GALLERY: NotionItem[] = [
     href: "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?auto=format&fit=crop&w=1200&q=80",
   },
   {
-    label: "Palette",
-    href: "https://images.unsplash.com/photo-1460661411761-a0d89726a954?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
     label: "Studio",
     href: "https://images.unsplash.com/photo-1459908676235-d5f02a50184b?auto=format&fit=crop&w=1200&q=80",
   },
