@@ -8,31 +8,26 @@ export const ROUTES = [
 export const SOCIAL = [
   {
     label: "Instagram",
-    href: "https://www.instagram.com/alexrivera.studio",
+    href: "https://www.instagram.com/viviwang911",
     icon: "mdi:instagram",
   },
   {
-    label: "Behance",
-    href: "https://www.behance.net/alexrivera",
-    icon: "mdi:behance",
-  },
-  {
     label: "Website",
-    href: "https://alexrivera.studio",
+    href: "https://onee.be",
     icon: "mdi:web",
   },
 ] as const;
 
 export const PERSONAL_INFO = {
-  name: "Alex Rivera",
-  title: "Alex Rivera",
+  name: "王薇薇",
+  title: "王薇薇",
   subtitle:
-    "Digital paintings and illustrations exploring color, light, and quiet worlds.",
-  role: "Digital artist",
-  contact: "mailto:hello@alexrivera.art",
+    "待编辑",
+  role: "自由职业者",
+  contact: "mailto:x@onee.be",
   contactLabel: "Say hello",
   avatar: "https://api.dicebear.com/9.x/lorelei/svg?seed=AlexRivera",
-  about: `Alex Rivera is a digital artist working in illustration and mixed media — layering texture, saturated color, and soft atmosphere into scenes that feel half-remembered. This gallery collects recent work spanning portraiture, landscape, and speculative worlds.`,
+  about: `关于我`,
 } as const;
 
 export const SEO_INFO = [
@@ -43,7 +38,7 @@ export const SEO_INFO = [
   },
   {
     name: "keywords",
-    content: "Alex Rivera, digital art, illustration, mixed media, art portfolio",
+    content: "王薇薇, digital art, illustration, mixed media, art portfolio",
   },
   { name: "author", content: PERSONAL_INFO.name },
 ];
