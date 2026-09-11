@@ -14,6 +14,7 @@ export default defineConfig({
       { protocol: "https", hostname: "**.s3.amazonaws.com" },
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "**.unsplash.com" },
+      { protocol: "https", hostname: "**.onee.be" },
     ],
   },
   vite: {
