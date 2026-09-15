@@ -26,7 +26,7 @@ export const PERSONAL_INFO = {
   role: "自由职业者",
   contact: "mailto:x@onee.be",
   contactLabel: "Say hello",
-  avatar: "https://api.dicebear.com/9.x/lorelei/svg?seed=AlexRivera",
+  avatar: "https://api.dicebear.com/9.x/lorelei/svg?seed=WangWeiwei",
   about: `关于我`,
 } as const;
 
